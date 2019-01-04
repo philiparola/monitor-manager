@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace monitor_manager
 {
-    public partial class Form1 : Form
+    public partial class main_window : Form
     {
-        public Form1()
+        public main_window()
         {
             InitializeComponent();
+        }
+
+        private void save_current_config_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
